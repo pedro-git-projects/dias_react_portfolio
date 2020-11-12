@@ -2,6 +2,7 @@ import React from 'react';
 //page components
 import AboutSection from '../Components/AboutSection'
 import ServicesSection from '../Components/ServicesSection'
+import FaqSection from '../Components/FaqSection'
 
 
 
@@ -10,6 +11,7 @@ const AboutUs = () => {
         <>
             <AboutSection />
             <ServicesSection />
+            <FaqSection />
         </ >
     )
 }
